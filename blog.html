@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School website tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1> 子供たちの未来</h1>
+  </section>
+
+
+    <!-- ~~~~~~~ ブログ　コンテンツ ~~~~~~~ -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/class.jpg" alt="">
+          <h2>子供たちの未来</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.
+          </p>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.
+          </p>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam, quidem.
+          </p>
+          <div class="comment-box">
+            <h3>コメントする</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="名前を入力">
+              <input type="email" placeholder="メールアドレスを入力">
+              <textarea rows="5" placeholder="あなたのコメント"></textarea>
+              <button type="submit" class="hero-btn red-btn">コメントを投稿</button>
+            </form>
+          </div>
+
+        </div>
+
+
+        <div class="blog-right">
+          <h3>カテゴリー</h3>
+          <div>
+            <span>算数</span>
+            <span>10</span>
+          </div>
+          <div>
+            <span>英語</span>
+            <span>11</span>
+          </div>
+          <div>
+            <span>社会科</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>理科</span>
+            <span>17</span>
+          </div>
+          <div>
+            <span>英語</span>
+            <span>20</span>
+          </div>
+          <div>
+            <span>技術</span>
+            <span>9</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- ~~~~~~~ Footer ~~~~~~~ -->
+
+  <section class="footer">
+    <h4>私たちについて</h4>
+    <p>でしという口たまし。くたくただじことたはましまたゴーシュの生者のためをももう残念でしたて、<br>セロも途中出してやっでし。でしという口たまし。
+      くたくただじことたはましまたゴーシュの生者のためをももう残念でしたて、セロも途中出してやっでし</p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+
+      <p>Created by GingerlyCode</p>
+  </section>
+
+
+  <!-- ~~~~~ toggleのためのJavaScript ~~~~~ -->
+  <script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200%";
+    }
+  </script>
+
+</body>
+</html>
