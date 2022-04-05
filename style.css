@@ -161,6 +161,7 @@ p {
   margin: 5%;
   display: flex;
   justify-content: space-between;
+  /* letter-spacing: 1px; */
 }
 
 .course-col{
