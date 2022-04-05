@@ -173,6 +173,12 @@ p {
   transition: 0.5s;
 }
 
+.course-col img{
+  width:100%;
+  border-radius: 10px;
+  /* display: block; */
+}
+
 h3 {
   text-align: center;
   font-weight: 600;
